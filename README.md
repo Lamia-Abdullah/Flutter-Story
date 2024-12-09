@@ -7,6 +7,10 @@ The **Flutter Story** allows you to display stories similar to Instagram Stories
 
 
 
+
+https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee
+
+
 ---
 
 ## Features  📿
