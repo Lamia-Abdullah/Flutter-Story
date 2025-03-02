@@ -9,7 +9,7 @@ The **story_flow** allows you to display stories similar to Instagram Stories us
 
 
 
-![Story Flow Demo](https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee)
+https://github.com/user-attachments/assets/945cfb79-61ca-43e8-a4c7-6ce07dd09b50
 
 
 ## Features  📿
