@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_story/flutter_story.dart';
-
 import 'package:lottie/lottie.dart';
+import 'package:story_flow/story_flow.dart';
 
 class StoryProfile extends StatefulWidget {
   final String profileImage;

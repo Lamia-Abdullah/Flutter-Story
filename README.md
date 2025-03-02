@@ -1,9 +1,9 @@
 
 
-# Flutter Story  🎬
+# story_flow  🎬
 
 ## Overview  
-The **Flutter Story** allows you to display stories similar to Instagram Stories using Flutter. It supports images, videos, and GIFs with customizable profile picture size. The package also includes a progress indicator for each story and interactive gestures for smooth navigation.  
+The **story_flow** allows you to display stories similar to Instagram Stories using Flutter. It supports images, videos, and GIFs with customizable profile picture size. The package also includes a progress indicator for each story and interactive gestures for smooth navigation.  
 
 
 
@@ -31,7 +31,7 @@ Add the following to your `pubspec.yaml` file:
 ```yaml
 
 dependencies:
-  flutter_story: ^1.0.2 # Replace with the latest version
+  story_flow: ^1.0.2 # Replace with the latest version
 
 ```
 
@@ -44,7 +44,7 @@ flutter pub get
 ## Usage 🛠️
 #### Import the package.
 ```yaml
-import 'package:flutter_story/flutter_story.dart';
+import 'package:story_flow/story_flow.dart';
 ```
 #### Displaying Profile Picture with Stories: `StoryProfile`
 Use `StoryProfile` to display a tappable profile picture that opens the story viewer:

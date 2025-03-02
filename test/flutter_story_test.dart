@@ -1,6 +1,7 @@
 
-import 'package:flutter_story/flutter_story.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:story_flow/story_flow.dart';
+
 
 void main() {
   test('Test StoryProfile widget', () {

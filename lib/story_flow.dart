@@ -1,4 +1,4 @@
-library flutter_story;
+library story_flow;
 
 export 'src/story_profile_widget.dart';
 export 'src/story_item.dart';
