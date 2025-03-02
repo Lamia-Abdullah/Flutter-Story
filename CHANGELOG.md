@@ -1,6 +1,6 @@
 ## 1.0.0
 
-* TODO: initial release.
+initial release.
 
 ## 1.0.2 
 

@@ -10,6 +10,7 @@ The **story_flow** allows you to display stories similar to Instagram Stories us
 
 https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee
 
+![Story Flow Demo](https://raw.githubusercontent.com/your-username/story_flow/main/assets/story_flow_demo.gif)
 
 ---
 
@@ -57,7 +58,7 @@ StoryProfile(
   isLottie: false, // Whether the profile image is a Lottie animation
   storyItems: [
     StoryImage(
-    url:'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJzZHcyOGs3cHlvMHRjZGd4MzduMjN3MmVxb2UzcGg1c2tocDNtaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gYWeVOiMmbg3kzCTq5/giphy.gif',
+    url: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJzZHcyOGs3cHlvMHRjZGd4MzduMjN3MmVxb2UzcGg1c2tocDNtaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gYWeVOiMmbg3kzCTq5/giphy.gif',
     duration: const Duration(seconds: 5),),
     StoryVideoAsset(assetPath: "assets/video.mov"), // Video
     StoryImage( assetPath: "assets/cat.webp",
