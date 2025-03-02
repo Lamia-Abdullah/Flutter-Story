@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: const Text(" flutter Story ")),
+        appBar: AppBar(title: const Text(" Story flow ")),
         body: Center(
           child: StoryProfile(
             size: 70,
