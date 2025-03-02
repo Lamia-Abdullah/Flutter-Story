@@ -30,7 +30,7 @@ Add the following to your `pubspec.yaml` file:
 ```dart
 
 dependencies:
-  story_flow: ^1.0.2 # Replace with the latest version
+  story_flow: ^1.0.3 # Replace with the latest version
 
 ```
 

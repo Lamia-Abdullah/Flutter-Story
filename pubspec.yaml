@@ -1,6 +1,6 @@
 name: story_flow
 description: "A Flutter story package that enables the display of stories, supporting images, videos, and GIFs. It includes customizable profile picture sizes, a progress indicator for each story, and smooth swipe navigation between stories."
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Lamia-Abdullah/Flutter-Story
 
 environment:
