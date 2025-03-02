@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class StoryProgressIndicator extends StatelessWidget {
   final AnimationController controller;
 
-  StoryProgressIndicator({required this.controller});
+  const StoryProgressIndicator({super.key, required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class StoryProgressIndicator extends StatelessWidget {
         return LinearProgressIndicator(
           value: controller.value,
           backgroundColor: Colors.grey,
-          valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+          valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
         );
       },
     );

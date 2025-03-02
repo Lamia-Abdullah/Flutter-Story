@@ -14,12 +14,11 @@ class StoryImage extends StoryItem {
   StoryImage({
     this.url,
     this.assetPath,
-    required Duration duration,
+    required super.duration,
   })  : assert(
             (url != null && assetPath == null) ||
                 (assetPath != null && url == null),
-            'Either assetPath or url must be provided, not both'),
-        super(duration: duration);
+            'Either assetPath or url must be provided, not both');
 }
 
 class StoryVideoAsset extends StoryItem {

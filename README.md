@@ -1,4 +1,6 @@
 
+[![pub package](https://img.shields.io/pub/v/story_flow.svg)](https://pub.dev/packages/story_flow)
+
 
 # story_flow  🎬
 
@@ -7,12 +9,8 @@ The **story_flow** allows you to display stories similar to Instagram Stories us
 
 
 
+![Story Flow Demo](https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee)
 
-https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee
-
-![Story Flow Demo](https://raw.githubusercontent.com/your-username/story_flow/main/assets/story_flow_demo.gif)
-
----
 
 ## Features  📿
 
@@ -23,13 +21,13 @@ https://github.com/user-attachments/assets/9fb7a20c-3bff-47cb-8190-d243fe65f3ee
 - **Swipe** navigation to switch between stories.  
 - **viewed stories** for story indicators after watching (from green to gray).  
 
----
+
 
 ## Installation  📦
 
 Add the following to your `pubspec.yaml` file:  
 
-```yaml
+```dart
 
 dependencies:
   story_flow: ^1.0.2 # Replace with the latest version
@@ -37,20 +35,20 @@ dependencies:
 ```
 
 Run the following command in the terminal to fetch the package:
-```yaml
+```dart
 flutter pub get
 ```
 
----
+
 ## Usage 🛠️
 #### Import the package.
-```yaml
+```dart
 import 'package:story_flow/story_flow.dart';
 ```
 #### Displaying Profile Picture with Stories: `StoryProfile`
 Use `StoryProfile` to display a tappable profile picture that opens the story viewer:
 
-```yaml
+```dart
 
 StoryProfile(
   size: 70, // Profile picture size
@@ -70,7 +68,7 @@ StoryProfile(
 ```
 #### Displaying Stories: `StoryView`
 Use `StoryView` to display the stories in a standalone interface:
-```yaml
+```dart
 
 StoryView(
   items: [
@@ -96,7 +94,7 @@ StoryView(
 #### For Images 
 Set the duration for how long the image is displayed:
 
-```yaml
+```dart
 
 StoryAsset("assets/cat.jpg", duration: const Duration(seconds: 3)), 
 ```
@@ -104,24 +102,24 @@ StoryAsset("assets/cat.jpg", duration: const Duration(seconds: 3)),
 #### For Videos
 Videos are displayed for their full duration automatically:
 
-```yaml
+```dart
 
 StoryAsset("assets/video.mp4"),  
 ```
 You don’t need to set a `duration` for videos.
 
----
+
 
 ## Navigation Between Stories 🔄
  - Automatically moves to the next story after the current one finishes.
  - If it’s the last story, the viewer closes automatically.
 
----
+
 
 ## viewed stories 👁️
  - After watching a story, its indicator color changes from green to gray.
   
----
+
 
 ## Notes 📋
 - Images: Supports both assets and network URLs.

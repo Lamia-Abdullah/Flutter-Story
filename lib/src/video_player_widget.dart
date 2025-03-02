@@ -4,7 +4,7 @@ import 'package:video_player/video_player.dart';
 class VideoPlayerWidget extends StatelessWidget {
   final String assetPath;
 
-  VideoPlayerWidget({required this.assetPath});
+  const VideoPlayerWidget({super.key, required this.assetPath});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class VideoPlayerWidget extends StatelessWidget {
             child: VideoPlayer(videoController),
           );
         } else {
-          return Center(child: CircularProgressIndicator());
+          return const Center(child: CircularProgressIndicator());
         }
       },
     );

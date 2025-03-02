@@ -11,7 +11,7 @@ import 'video_player_widget.dart';
 class StoryView extends StatefulWidget {
   final List<StoryItem> items;
 
-  StoryView({required this.items});
+  const StoryView({super.key, required this.items});
 
   @override
   _StoryViewState createState() => _StoryViewState();
@@ -69,7 +69,7 @@ class _StoryViewState extends State<StoryView> with TickerProviderStateMixin {
       if (nextIndex < widget.items.length) {
         _pageController.animateToPage(
           nextIndex,
-          duration: Duration(milliseconds: 300),
+          duration: const Duration(milliseconds: 300),
           curve: Curves.easeInOut,
         );
         _controllers![nextIndex]
@@ -103,7 +103,7 @@ class _StoryViewState extends State<StoryView> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     if (_controllers == null) {
-      return Center(child: CircularProgressIndicator());
+      return const Center(child: CircularProgressIndicator());
     }
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
@@ -115,7 +115,7 @@ class _StoryViewState extends State<StoryView> with TickerProviderStateMixin {
             PageView.builder(
               controller: _pageController,
               itemCount: widget.items.length,
-              physics: ClampingScrollPhysics(), // Set the scroll physics
+              physics: const ClampingScrollPhysics(), // Set the scroll physics
               onPageChanged: (index) {
                 _handlePageChange(index); // Handle page change
               },
@@ -156,7 +156,9 @@ class _StoryViewState extends State<StoryView> with TickerProviderStateMixin {
     if (_controllers == null) return;
 
     // Stop all animations
-    _controllers!.forEach((controller) => controller.stop());
+    for (var controller in _controllers!) {
+      controller.stop();
+    }
 
     if (index > _lastReadIndex) {
       if (_lastReadIndex < widget.items.length) {

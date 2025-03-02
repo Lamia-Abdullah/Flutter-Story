@@ -8,7 +8,7 @@ class StoryProfile extends StatefulWidget {
   final bool isLottie; 
   final double size; 
 
-  StoryProfile({
+  const StoryProfile({super.key, 
     required this.profileImage,
     required this.storyItems,
     this.isLottie = false,
@@ -17,6 +17,7 @@ class StoryProfile extends StatefulWidget {
 
   @override
   _StoryProfileState createState() => _StoryProfileState();
+  
 }
 
 class _StoryProfileState extends State<StoryProfile> {
@@ -45,7 +46,7 @@ class _StoryProfileState extends State<StoryProfile> {
       child: Container(
         width: widget.size, // Set the width
         height: widget.size, // Set the height
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           shape: BoxShape.circle,
         ),
         child: Stack(

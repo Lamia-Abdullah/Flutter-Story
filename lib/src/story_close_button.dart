@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class StoryCloseButton extends StatelessWidget {
   final VoidCallback onPressed;
 
-  StoryCloseButton({required this.onPressed});
+  const StoryCloseButton({super.key, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class StoryCloseButton extends StatelessWidget {
         ),
         child: Center(
           child: IconButton(
-            icon: Icon(
+            icon: const Icon(
               Icons.close,
               color: Colors.white,
               size: 20,
