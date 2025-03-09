@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
+// A widget for playing video from an asset file.
 class VideoPlayerWidget extends StatelessWidget {
   final String assetPath;
 

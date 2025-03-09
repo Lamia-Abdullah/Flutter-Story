@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// This button allows users to exit or close the story view
 class StoryCloseButton extends StatelessWidget {
   final VoidCallback onPressed;
 
