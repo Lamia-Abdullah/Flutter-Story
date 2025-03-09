@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/945cfb79-61ca-43e8-a4c7-6ce07dd09b50
 
 Add the following to your `pubspec.yaml` file:  
 
-```dart
+```yaml
 
 dependencies:
   story_flow: ^1.0.3 # Replace with the latest version
@@ -35,7 +35,7 @@ dependencies:
 ```
 
 Run the following command in the terminal to fetch the package:
-```dart
+```sh
 flutter pub get
 ```
 

@@ -1,4 +1,4 @@
-library story_flow;
+library;
 
 export 'src/story_profile_widget.dart';
 export 'src/story_item.dart';

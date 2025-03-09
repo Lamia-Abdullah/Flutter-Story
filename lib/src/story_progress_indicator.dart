@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// A progress indicator for story playback
 class StoryProgressIndicator extends StatelessWidget {
   final AnimationController controller;
 
